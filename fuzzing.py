@@ -19,5 +19,5 @@ while True:
         buffer = buffer + "A"*100
 
     except:
-        print "Fuzzing crashed at %s bytes" % str(len(buffer))
+        print("Fuzzing crashed at {} bytes").format(str(len(buffer)))
         sys.exit()
